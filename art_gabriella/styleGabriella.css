@@ -1,0 +1,431 @@
+@font-face {
+    font-family: Algerian Regular;
+    src: url(Algerian Regular.ttf);
+}
+
+#logoGabriella
+{
+  width: 17.9vw;
+	height: 6vw;
+  background-color: white;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.dropbtn {
+
+    padding: 0vw;
+    border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  background-color: white;
+  width: 26vw;
+	left: 0vw;
+
+}
+
+.dropdown_content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	width: 26vw;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown_content a {
+  background-color: rgba(66,66,66,0.8);
+	font-family: verdana;
+	color: ffffff;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content a:hover
+{
+	background-color: gray;
+}
+
+.dropdown:hover .dropdown_content
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+	background-color: ;
+}
+
+
+
+
+
+
+.footerGabriellaLeft {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: left;
+}
+
+.footerGabriellaRight {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: right;
+}
+
+
+
+
+
+footer
+{
+	height: 2.5vw;
+	width: 99vw;
+	bottom: -95vw;
+	position: absolute;
+	background-color: gray;
+}
+
+
+#productHead
+{
+	font-family: Algerian Regular;
+	font-size: 6vw;
+	position: absolute;
+	top: 3vw;
+	left: 19.5vw;
+	color: #ffffff;
+  background-color: rgba(103,101,103,0.8);
+}
+
+.products
+{
+	width: 20vw;
+	height: 15vw;
+}
+
+
+
+#gabriella_Product-1 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 17.5vw;
+	left: 12vw;
+}
+
+#gabriella_Product-2 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 17.5vw;
+	left: 40vw;
+}
+
+#gabriella_Product-3 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 17.5vw;
+	left: 68vw;
+}
+
+#gabriella_Product-4 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 35.5vw;
+	left: 12vw;
+}
+
+#gabriella_Product-5 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 35.5vw;
+	left: 40vw;
+}
+
+#gabriella_Product-6 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 35.5vw;
+	left: 68vw;
+}
+
+#gabriella_Product-7 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 53.5vw;
+	left: 12vw;
+}
+
+#gabriella_Product-8 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 53.5vw;
+	left: 40vw;
+}
+
+#gabriella_Product-9 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 53.5vw;
+	left: 68vw;
+}
+
+#gabriella_Product-10 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 71.5vw;
+	left: 12vw;
+}
+
+#gabriella_Product-11 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 71.5vw;
+	left: 40vw;
+}
+
+#gabriella_Product-12 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 71.5vw;
+	left: 68vw;
+}
+
+
+#gabriella_Product-13 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 90vw;
+	left: 12vw;
+}
+
+#gabriella_Product-14 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 90vw;
+	left: 40vw;
+}
+
+#gabriella_Product-15 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 90vw;
+	left: 68vw;
+}
+
+#gabriella_Product-16 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 108vw;
+	left: 12vw;
+}
+
+#gabriella_Product-17 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 108vw;
+	left: 40vw;
+}
+
+#gabriella_Product-18 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 108vw;
+	left: 68vw;
+}
+
+#gabriella_Product-19 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 126vw;
+	left: 12vw;
+}
+
+#gabriella_Product-20 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 126vw;
+	left: 40vw;
+}
+
+#gabriella_Product-21 {
+    background-color: transparent;
+    width: 20vw;
+    height: 15vw;
+	position: absolute;
+	top: 126vw;
+	left: 68vw;
+}
+
+
+
+#gabriella_Product-1:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-2:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-3:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-4:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-5:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-6:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-7:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-8:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-9:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-10:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-11:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-12:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-13:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-14:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-15:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-16:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-17:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-18:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-19:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-20:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#gabriella_Product-21:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+
+
+.product-card-inside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.product-card-front, #product-card-insideBack-1
+{
+    position: absolute;
+    width: 20vw;
+    height: 15vw;
+    backface-visibility: hidden;
+}
+
+.product-card-front {
+    background-color: none;
+}
+
+#product-card-insideBack-1 {
+    background-color: rgba(103,101,103,0.825);
+    color: ffffff;
+    transform: rotateY(180deg);
+	font-family: verdana;
+	font-size: 1vw;
+}

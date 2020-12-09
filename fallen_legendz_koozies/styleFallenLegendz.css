@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Algerian Regular;
+    src: url(Algerian Regular.ttf);
+}
+
+#logoFallenLegendz
+{
+  width: 17.9vw;
+	height: 6vw;
+  background-color: gray;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.dropbtn {
+
+    padding: 0vw;
+    border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  background-color: gray;
+  width: 26vw;
+	left: 0vw;
+
+}
+
+.dropdown_content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	width: 26vw;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown_content a {
+  background-color: rgba(66,66,66,0.8);
+	font-family: verdana;
+	color: ffffff;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content a:hover
+{
+	background-color: gray;
+}
+
+.dropdown:hover .dropdown_content
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+	background-color: ;
+}
+
+
+
+
+
+#productHead
+{
+	font-family: Algerian Regular;
+	font-size: 6vw;
+	position: absolute;
+	top: 3vw;
+	left: 32vw;
+	color: #ffffff;
+  background-color: rgba(103,101,103,0.7);
+}
+
+.products
+{
+	width: 16vw;
+	height: 15vw;
+}
+
+
+
+#fallenLegendz_Product-1 {
+    background-color: transparent;
+    width: 15vw;
+    height: 15vw;
+	position: absolute;
+	top: 20.5vw;
+	left: 14vw;
+}
+
+#fallenLegendz_Product-2 {
+    background-color: transparent;
+    width: 15vw;
+    height: 15vw;
+	position: absolute;
+	top: 20.5vw;
+	left: 42.5vw;
+}
+
+#fallenLegendz_Product-3 {
+    background-color: transparent;
+    width: 15vw;
+    height: 15vw;
+	position: absolute;
+	top: 20.5vw;
+	left: 70vw;
+}
+
+
+#fallenLegendz_Product-1:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#fallenLegendz_Product-2:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+#fallenLegendz_Product-3:hover .product-card-inside {
+    transform: rotateY(180deg);
+}
+
+
+
+
+.product-card-inside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.product-card-front, #product-card-insideBack-1
+{
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    backface-visibility: hidden;
+}
+
+.product-card-front {
+    background-color: none;
+}
+
+#product-card-insideBack-1 {
+    background-color: rgba(103,101,103,0.825);
+    color: ffffff;
+    transform: rotateY(180deg);
+	font-family: verdana;
+	font-size: 1vw;
+}
+
+
+
+
+footer
+{
+	height: 2.5vw;
+	width: 99vw;
+	bottom: 0vw;
+	position: absolute;
+	background-color: gray;
+}
+
+
+.footerFallenLegendzLeft {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: left;
+}
+
+.footerFallenLegendzRight {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: right;
+}

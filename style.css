@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Algerian Regular;
+    src: url(Algerian Regular.ttf);
+}
+
+#logo
+{
+	width: 26vw;
+	height: 6vw;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+body {
+  background-image: url('img/backgroundIndex.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.dropbtn {
+
+    padding: 0vw;
+    border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	left: 0vw;
+
+}
+
+.dropdown_content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	width: 26vw;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown_content a {
+  background-color: rgba(66,66,66,0.8);
+	font-family: verdana;
+	color: ffffff;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_content a:hover
+{
+	background-color: gray;
+}
+
+.dropdown:hover .dropdown_content
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+	background-color: ;
+}
+
+
+
+
+#siteHead
+{
+  font-family: Algerian Regular;
+	font-size: 6vw;
+  position: absolute;
+  top: 1vw;
+	left: 32.5vw;
+  text-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px darkblue;
+  background-color: rgba(23,35,237,0.8);
+  color: #ffffff;
+}
+
+
+
+#mikeQuote
+{
+    position: absolute;
+    width: 36vw;
+    height: 35vw;
+    top: 12.5vw;
+    left: 55vw;
+}
+
+#logoResinSun
+{
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    top: 39vw;
+    left: 6.5vw;
+}
+#logoFallenLegendzKoozies
+{
+    position: absolute;
+    width: 23vw;
+    height: 17.5vw;
+    top: 20vw;
+    left: 5vw;
+}
+#logoGabriella
+{
+    position: absolute;
+    width: 23vw;
+    height: 18vw;
+    top: 30vw;
+    left: 28vw;
+}
+
+
+#NewProducts
+{
+	font-family: verdana;
+	font-size: 2vw;
+	position: absolute;
+	top: 14.5vw;
+	left: 10vw;
+	color: #000000;
+	border: 2px solid;
+	background-color: gray;
+}
+
+#VisitSellers
+{
+	font-family: verdana;
+	font-size: 2vw;
+	position: absolute;
+	top: 22vw;
+	left: 28vw;
+	color: #000000;
+	border: 2px solid;
+	background-color: gray;
+}
+
+
+
+.footerHomeLeft {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: left;
+}
+
+.footerHomeRight {
+    font-family: verdana;
+    font-size: 1vw;
+    color: #000000;
+    float: right;
+}
+
+
+footer
+{
+	height: 2.5vw;
+	width: 99vw;
+	bottom: 0vw;
+	position: absolute;
+	background-color: gray;
+}
